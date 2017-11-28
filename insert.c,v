@@ -1,0 +1,41 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.11.13.17.07.20;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@this is used to insert characters in master array
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@// this is insert function
+#include"header.h"
+#include"prototype.h"
+char * insert(char *ma, char ch)
+{
+	int ndc;
+//	int *ptr;
+	 printf("in function----->  %s\n",__func__);
+	ma=realloc(ma,ndc+2);
+	*(ma+ndc)=ch;
+	*(ma+ndc+1)= '\0';
+	ndc=strlen(ma);
+	printf("the maasterarray is  ---------------->%s\n",ma);
+	printf("the length of masterarray is-------->>%d\n",ndc);
+	return ma;
+}
+@

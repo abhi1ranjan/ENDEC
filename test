@@ -1,0 +1,81 @@
+#!/bin/bash
+
+clear
+touch compression 
+
+touch compressed_file
+
+touch encrypted_file
+for file in $(ls *.h) 
+do
+	ci $file
+done
+
+for file in $(ls *.c)
+do
+	ci $file
+done
+for file in $(ls *.h,v)
+do
+	co $file
+done
+for file in $(ls *.c,v)
+do
+	co $file
+done
+if ( make )
+then
+	echo "compilation successfull"
+	echo -e "do you want to run the code  ......>\n enter y/n?"
+	read choice
+	if [ $choice == 'y' ]
+	then
+		./mdc
+		read
+
+	else
+		echo "thankyou!!"
+	fi
+		for file in $(ls *.h,v)
+		do
+			co -l $file
+		done
+		for file in $(ls *.c,v)
+		do
+			co -l $file
+		done
+		rm *.o
+		rm mdc 
+		echo "do u want to see the files------->y/n"
+		read choice1
+		if [ $choice1 == 'y' ]
+		then
+			echo -e "the encrypted file is--------->\n"
+			cat encrypted_file
+			echo -e "\n"
+			echo -e "the main file before decompression is ----->\n"
+			cat ranjan
+			echo -e "\n"
+			echo -e "the actuall file after decompression is ----->\n"
+			cat compressed_file
+			echo -e "\n"
+			echo -e " the master array is ----->\n"
+			cat compression
+			echo -e "\n"
+			
+		else
+			echo "ohk...fine"
+		fi
+		read -n1 -p "do you want to remove the storage files...?y/n"
+		if [ $REPLY == 'y' ]
+		then
+		
+			rm compression
+			rm compressed_file	
+			rm encrypted_file	
+			
+			
+		fi
+
+fi
+./clog

@@ -1,0 +1,67 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.11.13.17.05.28;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@this is main decompression file
+it comtains the all function call of 2 to 7 bit decompression 
+which is decided upon checking the total no of unique character.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@// this is decompression function
+#include"header.h"
+#include"prototype.h"
+int decompression()
+{
+	printf("in function ----->%s\n",__func__);
+	int fd,ndc,l;
+	fd = open("compression",O_RDONLY);
+	printf("fd is--------->%d",fd);
+	ndc=lseek(fd,0,SEEK_END);
+	l = codelength(ndc);
+	printf("the length of master arry for codelength is ----%d\n",ndc);	
+	printf("the codelength is ---->%d\n",l);
+	switch(l)
+	{
+		case 2:
+			decompression2();
+			break;
+		case 3:
+			decompression3();
+			break;
+		case 4:
+			decompression4();
+			break;
+		case 5:
+			decompression5();
+			break;
+		case 6:
+			decompression6();
+			break;
+		case 7:
+			decompression7();
+			break;
+		default:
+			printf("\"This file cannot be decompressed or may be some error\"");
+			break;
+	}
+	return 0;
+}
+
+@

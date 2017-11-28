@@ -1,0 +1,47 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.11.13.16.57.58;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@it include prototypes of all functions which is used for MDC
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@int compression();
+int  decompression();
+int decompression2();
+int decompression3();
+int decompression4();
+int decompression5();
+int decompression6();
+int decompression7();
+char * createarray(int);
+char * insert(char *,char);
+int operation(int);
+int mainmenu();
+int unique(char *,char);
+int codelength(int);
+int compression2(char *,int,char *);
+int compression3(char *,int,char *);
+int compression4(char *,char *,int);
+int compression5(char *,int,char *);
+int compression6(char*,int,char*);
+int compression7(char*,int,char*);
+int preserve_masterarray(char *, int);
+int findloc(char,char *,int);
+@

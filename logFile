@@ -1,0 +1,916 @@
+
+RCS file: header.h,v
+Working file: header.h
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is header file.....it includes header file stdio.h, stdlib.h etc
+and some other file like unistd.h
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 16:55:20;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: prototype.h,v
+Working file: prototype.h
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+it include prototypes of all functions which is used for MDC
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 16:57:58;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: codelength.c,v
+Working file: codelength.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+it determines code length of file which are going to be compressed
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 16:59:17;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression2.c,v
+Working file: compression2.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 2-bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:00:14;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression3.c,v
+Working file: compression3.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 3-bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:00:39;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression4.c,v
+Working file: compression4.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 4-bit copression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:00:57;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression5.c,v
+Working file: compression5.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+tis is 5 bit copressio file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:01:10;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression6.c,v
+Working file: compression6.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 6-bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:01:21;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression7.c,v
+Working file: compression7.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 7-bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:01:32;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression.c,v
+Working file: compression.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is main compression file
+it includes the calling procedure of all the other bits compression file
+like it contains all 2 to 7 bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:01:41;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: createarray.c,v
+Working file: createarray.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is used to create unique character from file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:03:03;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression2.c,v
+Working file: decompression2.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 2-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:03:49;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression3.c,v
+Working file: decompression3.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 3-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:04:17;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression4.c,v
+Working file: decompression4.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 4-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:04:34;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression5.c,v
+Working file: decompression5.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 5 bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:04:48;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression6.c,v
+Working file: decompression6.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 6-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:05:04;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression7.c,v
+Working file: decompression7.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 7-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:05:14;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression.c,v
+Working file: decompression.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is main decompression file
+it comtains the all function call of 2 to 7 bit decompression 
+which is decided upon checking the total no of unique character.
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:05:28;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: findloc.c,v
+Working file: findloc.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this file is used to find the location of unique character in master array.
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:06:35;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: insert.c,v
+Working file: insert.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is used to insert characters in master array
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:07:20;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: main.c,v
+Working file: main.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is main driver program file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:08:54;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: mainmenu.c,v
+Working file: mainmenu.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this file is used to give choice what to do
+like 1. compression
+2.decompression
+3. exit
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:09:07;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: operation1.c,v
+Working file: operation1.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is decidable function
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:09:53;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: preserve_masterarray.c,v
+Working file: preserve_masterarray.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is used to create master array
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:11:43;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: unique.c,v
+Working file: unique.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is used to create unique characters from file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:12:46;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: header.h,v
+Working file: header.h
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is header file.....it includes header file stdio.h, stdlib.h etc
+and some other file like unistd.h
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 16:55:20;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: prototype.h,v
+Working file: prototype.h
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+it include prototypes of all functions which is used for MDC
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 16:57:58;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: codelength.c,v
+Working file: codelength.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+it determines code length of file which are going to be compressed
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 16:59:17;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression2.c,v
+Working file: compression2.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 2-bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:00:14;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression3.c,v
+Working file: compression3.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 3-bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:00:39;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression4.c,v
+Working file: compression4.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 4-bit copression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:00:57;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression5.c,v
+Working file: compression5.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+tis is 5 bit copressio file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:01:10;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression6.c,v
+Working file: compression6.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 6-bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:01:21;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression7.c,v
+Working file: compression7.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 7-bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:01:32;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: compression.c,v
+Working file: compression.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is main compression file
+it includes the calling procedure of all the other bits compression file
+like it contains all 2 to 7 bit compression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:01:41;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: createarray.c,v
+Working file: createarray.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is used to create unique character from file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:03:03;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression2.c,v
+Working file: decompression2.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 2-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:03:49;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression3.c,v
+Working file: decompression3.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 3-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:04:17;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression4.c,v
+Working file: decompression4.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 4-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:04:34;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression5.c,v
+Working file: decompression5.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 5 bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:04:48;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression6.c,v
+Working file: decompression6.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 6-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:05:04;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression7.c,v
+Working file: decompression7.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is 7-bit decompression file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:05:14;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: decompression.c,v
+Working file: decompression.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is main decompression file
+it comtains the all function call of 2 to 7 bit decompression 
+which is decided upon checking the total no of unique character.
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:05:28;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: findloc.c,v
+Working file: findloc.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this file is used to find the location of unique character in master array.
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:06:35;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: insert.c,v
+Working file: insert.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is used to insert characters in master array
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:07:20;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: main.c,v
+Working file: main.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is main driver program file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:08:54;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: mainmenu.c,v
+Working file: mainmenu.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this file is used to give choice what to do
+like 1. compression
+2.decompression
+3. exit
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:09:07;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: operation1.c,v
+Working file: operation1.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is decidable function
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:09:53;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: preserve_masterarray.c,v
+Working file: preserve_masterarray.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is used to create master array
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:11:43;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: unique.c,v
+Working file: unique.c
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+this is used to create unique characters from file
+----------------------------
+revision 1.1	locked by: root;
+date: 2017/11/13 17:12:46;  author: root;  state: Exp;
+Initial revision
+=============================================================================

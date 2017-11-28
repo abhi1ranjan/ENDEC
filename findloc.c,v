@@ -1,0 +1,41 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.11.13.17.06.35;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@this file is used to find the location of unique character in master array.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@// this is function for finding the location
+#include"header.h"
+#include"prototype.h"
+int findloc(char ch1, char *m,int l)
+{
+	int i=0;
+	while(i<l)
+	{
+		if( ch1 == *(m+i))
+		{
+			return i;
+		}
+		i++;
+	}
+		
+} 
+@

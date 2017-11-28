@@ -1,0 +1,31 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2017.11.13.16.55.20;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@this is header file.....it includes header file stdio.h, stdlib.h etc
+and some other file like unistd.h
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include<stdio.h>
+#include<stdlib.h>
+#include<fcntl.h>
+#include<string.h>
+#include<unistd.h>
+@
